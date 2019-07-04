@@ -1,0 +1,192 @@
+body {
+  font-family: sans-serif;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #1f1f1f;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.beginButton{
+  background: #418043;
+    color: white;
+    height: 35px;
+    border: 0px;
+    border-radius: 5%;
+    width: 120px;
+    margin-top: 3rem;
+}
+
+.displayTurn{
+  padding: 20px;
+  background: #517E91;
+  width: 40rem;
+}
+
+.xStyle{
+  background: #9B0000!important;
+  border: none!important;
+}
+.oStyle{
+  background: #709249!important;
+  border: none!important;
+}
+.boardGame{
+  text-align: right;
+  border-right: 1px solid #dadada;
+  padding-right: 15px;
+}
+.boardGame button {
+  height: 110px;
+  width: 110px;
+  background: white;
+  margin: 0 0px 10px 10px;
+  border: 3px solid #9c9c9c;
+  font-size: 60px;
+  color: white;
+  border-radius: 5%;
+  font-weight: bold;
+}
+.historyPlayer{
+  display: inline-block;
+}
+.board{
+  display: inline-block;
+}
+.history{
+  display: inline-block;
+  background-color: #fefefe
+}
+.historyHeader{
+  text-align: left;
+  padding: 0!important;
+  font-size: 20px;
+}
+.playerTurnDiv{
+  text-align: left;
+  padding-left: 0!important;
+  text-size-adjust: 6px;
+  font-size: 13px;
+  padding-top: 10px;
+}
+.turn{
+  margin-top: 4px;
+}
+.borderTurn{
+  border-bottom: 1px solid #cccccc;
+}
+.game{
+  margin-top: 30px;
+}
+.displayTurn{
+  padding: 35px;
+  margin-top: -4rem;
+  height: 140px;
+  font-size: 35px;
+  color: white;
+}
+.jumbotron{
+  background-color: #ffffff!important;
+}
+.undoButton{
+  height: 25px;
+  width: 70px;
+  font-size: 11px;
+  color: white;
+  background: #CB5954;
+  border: none;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+.winnerPage{
+  padding: 10rem;
+}
+.playAgainButton{
+  margin-top: 3rem;
+  background: #418043;
+    color: white;
+    height: 35px;
+    border: 0px;
+    border-radius: 5%;
+    width: 120px;
+}
+.playerStrong{
+  font-size: 72px;
+}
+.noTurnsMade{
+  font-size: 14px;
+  text-align: left;
+  margin-left: -15px;
+  margin-top: 10px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .boardGame button {
+    height: 80px;
+    width: 80px;
+    background: white;
+    margin: 0 0px 10px 10px;
+    border: 2px solid #b4b4b4;
+    font-size: 50px;
+    color: white;
+    border-radius: 5%;
+  }
+  .boardGame{
+    text-align: center!important;
+    border-right: 1px solid #dadada;
+    padding-right: 15px;
+    border-right: none;
+    border-bottom: 1px solid #dadada;
+  }
+  .winnerPage{
+    padding: 3rem;
+  }
+  .playerStrong {
+    font-size: 45px;
+}
+}
+
+@media only screen and (max-width: 400px) {
+  .boardGame button {
+    height: 40px;
+    width: 40px;
+    background: white;
+    margin: 0 0px 10px 10px;
+    border: 2px solid #b4b4b4;
+    font-size: 15px;
+    color: white;
+    border-radius: 5%;
+  }
+  .boardGame{
+    text-align: center!important;
+    padding-right: 15px;
+  }
+}
